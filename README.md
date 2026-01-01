@@ -34,7 +34,7 @@ This combination is rare and valuable for modern data teams.
 ## 📂 SQL Server DBA Projects
 
 ### Project 1: SQL Server 2017 & 2019 Side-by-Side Installation
-**Date:** December 26, 2024  
+**Date:** December 26, 2025  
 **Status:** ✅ Complete
 
 Complete multi-version SQL Server installation project demonstrating production-ready database administration skills.
@@ -65,7 +65,7 @@ Complete multi-version SQL Server installation project demonstrating production-
 ---
 
 ### Project 2: SQL Server Health Monitoring Scripts
-**Date:** December 2024  
+**Date:** December 2025  
 **Status:** 🔄 In Progress
 
 Building automated health check scripts for daily SQL Server monitoring.
@@ -122,14 +122,14 @@ Documenting SQL Server patching procedures, including pre-patch preparation, exe
 
 **Program:** SQL Server Database Administration  
 **Provider:** JoinIT Solutions LLC  
-**Duration:** 6 months (October 2024 - June 2025)  
+**Duration:** 6 months (October 2025 - June 2026)  
 **Format:** Intensive hands-on training with 14 real-world projects
 
 **Modules Completed:**
 - ✅ Module 1: IT Fundamentals & DBA Responsibilities
 - ✅ Module 2: SQL Server Installation, Configuration & Database Management
 
-**Currently Learning (January 2025):**
+**Currently Learning (January 2026):**
 - 🔄 Module 3: SQL Server Patching & Service Pack Deployment
 
 **Upcoming:**
@@ -146,7 +146,7 @@ Documenting SQL Server patching procedures, including pre-patch preparation, exe
 
 **Target Role:** Junior to Mid-level SQL Server Database Administrator  
 **Work Type:** Remote (open to relocation)  
-**Availability:** June 2025 (upon training completion)  
+**Availability:** June 2026 (upon training completion)  
 **Location:** [Your location]
 
 **What I Bring:**
