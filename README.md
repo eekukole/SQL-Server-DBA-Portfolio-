@@ -11,9 +11,9 @@ Documenting my journey from data engineering to enterprise database administrati
 After a brief exposure in data engineering, I'm specializing in SQL Server Database Administration to deepen my expertise in enterprise database management. This portfolio showcases my hands-on DBA projects and professional documentation.
 
 **Current Status:** Intensive SQL Server DBA Training (JoinIT Solutions LLC)  
-**Timeline:** October 2024 - June 2025 (6 months)  
+**Timeline:** December 2025 - June 2026 (6 months)  
 **Progress:** Module 2 of 9 completed  
-**Expected Graduation:** June 2025
+**Expected Graduation:** June 2026
 
 ---
 
@@ -83,7 +83,7 @@ Building automated health check scripts for daily SQL Server monitoring.
 ---
 
 ### Project 3: SQL Server Patching & Service Pack Deployment
-**Date:** January 2025  
+**Date:** January 2026  
 **Status:** ⏳ Upcoming
 
 Documenting SQL Server patching procedures, including pre-patch preparation, execution, and post-patch verification.
@@ -122,7 +122,7 @@ Documenting SQL Server patching procedures, including pre-patch preparation, exe
 
 **Program:** SQL Server Database Administration  
 **Provider:** JoinIT Solutions LLC  
-**Duration:** 6 months (October 2025 - June 2026)  
+**Duration:** 6 months (December 2025 - June 2026)  
 **Format:** Intensive hands-on training with 14 real-world projects
 
 **Modules Completed:**
@@ -147,7 +147,7 @@ Documenting SQL Server patching procedures, including pre-patch preparation, exe
 **Target Role:** Junior to Mid-level SQL Server Database Administrator  
 **Work Type:** Remote (open to relocation)  
 **Availability:** June 2026 (upon training completion)  
-**Location:** [Your location]
+**Location:** [Buea, Cameroon]
 
 **What I Bring:**
 - Technical background in data engineering
@@ -196,7 +196,7 @@ I document my SQL Server DBA journey on LinkedIn, sharing projects, lessons lear
 ## 🙏 Acknowledgments
 
 - **JoinIT Solutions LLC** - Comprehensive SQL Server DBA Training
-- **Instructors:** Brian Chongwain, Akum Mutagha, Emmanuel Galabe
+- **Instructors:** Brian Chongwain, Alain Nfor, Sidney Nyoungho
 - **Microsoft** - Excellent SQL Server documentation
 - **SQL Server Community** - Invaluable troubleshooting resources
 
@@ -212,7 +212,7 @@ MIT License - Feel free to use scripts and documentation for your own learning.
 
 ---
 
-*Last Updated: December 29, 2025*  
+*Last Updated: January 1, 2026*  
 *Repository Created: December 29, 2025*  
 *Part of career transition from Data Engineering to SQL Server DBA*
 ```
