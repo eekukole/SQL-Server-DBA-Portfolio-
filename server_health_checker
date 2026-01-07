@@ -1,0 +1,86 @@
+-- Welcome to your Server Health Checker!
+
+PRINT '=============================';
+PRINT 'SQL SERVER HEALTH CHECK REPORT';
+PRINT 'Generated: ' + CONVERT(VARCHAR(20), GETDATE(), 120);
+PRINT '=============================';
+PRINT '';
+
+-- 1. Server Information
+PRINT '1. SERVER INFORMATION';
+PRINT '_____________________';
+SELECT
+	@@SERVERNAME AS ServerName,
+	@@VERSION AS [SQL Server & OS Version];
+PRINT '';
+
+-- SQL Server Services Status
+PRINT '2. SERVICE STATUS';
+PRINT '_________________';
+SELECT
+	servicename,
+	status_desc,
+	startup_type_desc
+FROM sys.dm_server_services;
+PRINT '';
+
+-- 3. Database Status
+PRINT '3. DATABASE STATUS';
+PRINT '__________________';
+SELECT
+	name,
+	state_desc,
+	recovery_model_desc,
+	(SELECT SUM(size * 8.0 / 1024)
+	 FROM sys.master_files
+	 WHERE database_id = d.database_id) AS TotalSizeMB
+FROM sys.databases d
+WHERE database_id > 4; -- Exclude system databases
+PRINT '';
+
+-- 4. Last Backup Status
+PRINT '4. BACKUP STATUS (Last 7 days)';
+PRINT '______________________________';
+SELECT
+	d.name AS DatabaseName,
+	MAX(b.backup_finish_date) AS LastBackupDate,
+	DATEDIFF(HOUR, MAX(b.backup_finish_date), GETDATE()) AS HoursSinceBackup
+FROM sys.databases d
+LEFT JOIN msdb.dbo.backupset b ON d.name = b.database_name
+WHERE d.database_id > 4
+GROUP BY d.name
+ORDER BY LastBackupDate DESC;
+PRINT '';
+
+-- 5. Disk Space
+PRINT '5. DISK SPACE';
+PRINT '_____________';
+EXEC xp_fixeddrives; -- Shows free space on drives
+PRINT '';
+
+-- Memory Usage
+PRINT '6. MEMORY USAGE';
+PRINT '_______________';
+SELECT
+	(physical_memory_in_use_kb/1024) AS MemoryUseMB,
+	(locked_page_allocations_kb/1024) AS LockedPagesMemoryMB,
+	(total_virtual_address_space_kb/1024) AS VirtualMemoryMB,
+	(virtual_address_space_available_kb/1024) AS AvailableMemoryMB
+FROM sys.dm_os_process_memory;
+PRINT '';
+
+-- 7. Current Connections
+PRINT '7. ACTIVE CONNECTIONS';
+PRINT '_____________________';
+SELECT
+	DB_NAME(database_id) AS DatabaseName,
+	COUNT(*) AS ConnectionCount
+FROM sys.dm_exec_sessions
+WHERE is_user_process = 1 AND database_id IS NOT NULL
+GROUP BY database_id
+ORDER BY ConnectionCount DESC;
+PRINT '';
+
+PRINT '================================';
+PRINT 'HEALTH CHECK COMPLETE';
+PRINT '================================';
