@@ -88,6 +88,34 @@ Building automated health check scripts for daily SQL Server monitoring.
 
 Documenting SQL Server patching procedures, including pre-patch preparation, execution, and post-patch verification.
 
+### Project 4: Employee Management Database Design ⭐ NEW
+**Location:** [`03-Database-Design/`](./03-Database-Design/)
+
+**Description:** Production-ready relational database demonstrating normalized design, foreign key relationships, and comprehensive data integrity constraints.
+
+**Key Features:**
+- Three-table hierarchy: Department → Employee → EmployeeSalary
+- Primary keys with IDENTITY auto-increment
+- Foreign key constraints enforcing referential integrity
+- Check constraints for data validation (email format, positive salary amounts, date logic)
+- Unique constraints on business keys (department name, employee email)
+- Audit columns (CreatedDate, IsActive) for change tracking
+- Proper data type selection (NVARCHAR for international names, VARCHAR for ASCII, DECIMAL for financial data)
+- Comprehensive sample data and verification queries
+- Salary history tracking with current/historical flag
+
+**Skills Demonstrated:**
+- Table design and database normalization
+- Relational database modeling
+- Constraint design for data integrity
+- SQL Server best practices
+- T-SQL scripting
+- Data type optimization
+
+**Files:**
+- [Design Documentation](./03-Database-Design/Employee-Management-Database-Design.md)
+- [Complete SQL Schema](./03-Database-Design/Employee-Management-Schema.sql)
+
 ---
 
 ## 🛠️ SQL Server DBA Skills
