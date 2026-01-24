@@ -1,8 +1,8 @@
 /*
 ============================================================================
 PROJECT: Employee Management Database Design
-AUTHOR: [Your Name]
-DATE: January 2026
+AUTHOR: Emmanuel Ekukole
+DATE: 24 January 2026
 DESCRIPTION: Relational database demonstrating normalized table design,
              foreign key relationships, and data integrity constraints.
              
@@ -20,7 +20,7 @@ USAGE: Run this script against a SQL Server 2017+ instance
 */
 
 -- Set database context (adjust to your database name)
-USE JITDB_YourName;  
+USE YourDatabaseName;  
 GO
 
 -- ============================================================================
