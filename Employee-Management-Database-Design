@@ -1,0 +1,51 @@
+# Employee Management Database Design
+
+## Overview
+A relational database design demonstrating table relationships, constraints, and data integrity in SQL Server.
+
+## Schema Design
+
+### Tables
+1. **Department** - Organizational departments
+2. **Employee** - Employee records with department assignment
+3. **EmployeeSalary** - Salary history tracking
+
+### Relationships
+- Department → Employee (1:Many)
+- Employee → EmployeeSalary (1:Many)
+
+## Key Features
+
+### Data Integrity
+- Primary keys on all tables (IDENTITY)
+- Foreign key relationships enforced
+- Unique constraints on business keys (DepartmentName, Email)
+- Check constraints for data validation
+
+### Audit Trail
+- CreatedDate on all tables (DATETIME2 for precision)
+- IsActive flags for soft deletes
+- Salary history maintained (never delete old salaries)
+
+### Best Practices Applied
+- NVARCHAR for international names
+- VARCHAR for ASCII-only data (emails)
+- DECIMAL(18,2) for financial data (not FLOAT)
+- BIT for boolean flags
+- Proper constraint naming conventions
+
+## Sample Queries
+
+[Include your verification queries here]
+
+## What I Learned
+- Designing normalized table structures
+- Foreign key relationships and referential integrity
+- Constraint types and when to use each
+- Data type selection based on use case
+- Audit column patterns for production databases
+
+## Next Steps
+- Add indexes for performance (Module 5)
+- Implement stored procedures for CRUD operations (Module 7)
+- Add triggers for salary history automation (Module 7)
