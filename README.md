@@ -158,8 +158,8 @@ Churches in Cameroon often track members using Excel or paper records, leading t
 - Production-ready documentation
 
 **Files:**
-- [Complete Database Schema](./03-Database-Design/ChurchMemberDB-Complete.sql)
-- [Documentation](./03-Database-Design/ChurchMemberDB-README.md)
+- [Complete Database Schema](./03-Database-Design/SynagogueChurchMemberDB-Complete.sql)
+- [Documentation](./03-Database-Design/SynagogueChurchMemberDB-README.md)
 
 
 **Target Market:** Churches, NGOs, community organizations (100-500 members)
