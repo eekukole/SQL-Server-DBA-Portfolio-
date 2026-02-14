@@ -88,7 +88,7 @@ Building automated health check scripts for daily SQL Server monitoring.
 
 Documenting SQL Server patching procedures, including pre-patch preparation, execution, and post-patch verification.
 
-### Project 4: Employee Management Database Design ⭐ NEW
+### Project 4: Employee Management Database Design
 **Location:** [`03-Database-Design/`](./03-Database-Design/)
 
 **Description:** Production-ready relational database demonstrating normalized design, foreign key relationships, and comprehensive data integrity constraints.
@@ -115,6 +115,54 @@ Documenting SQL Server patching procedures, including pre-patch preparation, exe
 **Files:**
 - [Design Documentation](./03-Database-Design/Employee-Management-Database-Design.md)
 - [Complete SQL Schema](./03-Database-Design/Employee-Management-Schema.sql)
+
+
+### Project 5. Church Member Management System ⭐ NEW
+**Location:** [`03-Database-Design/SynagogueChurchMemberDB/`](./03-Database-Design/SynagogueChurchMemberDB/)
+
+**Description:** Production-ready database system for managing church members, donations, attendance, and ministry groups. A comprehensive backup & restore strategy is on the way!
+
+**Real-World Problem Solved:**
+Churches in Cameroon often track members using Excel or paper records, leading to lost data and difficult reporting. This system centralizes member data with proper backup protection.
+
+**Key Features:**
+- 5 normalized tables (Member, Donation, Attendance, ChurchGroup, GroupMembership)
+- Foreign key relationships with referential integrity
+- Unicode support for Cameroonian names (Ndí, Bébé, François)
+- 7+ pre-built administrative queries
+
+**Still working on:**
+- Complete backup strategy (FULL, DIFFERENTIAL, LOG)
+- Disaster recovery scenarios documented
+- Point-in-time recovery capability
+
+**Backup & Recovery:**
+- RPO: 30 minutes (maximum data loss)
+- RTO: 1 hour (maximum downtime)
+- Automated backup scripts included
+
+**Use Cases:**
+- Member registration and tracking
+- Donation/tithe recording and reporting
+- Service attendance monitoring
+- Ministry group management
+- Monthly financial reports
+- Top donor identification
+
+**Skills Demonstrated:**
+- Database normalization (3NF)
+- Relationship design (1:M, self-referencing FK)
+- Constraint implementation (PK, FK, CHECK, UNIQUE, DEFAULT)
+- Backup strategies (FULL, DIFFERENTIAL, TRANSACTION LOG)
+- Disaster recovery planning (RPO/RTO)
+- Production-ready documentation
+
+**Files:**
+- [Complete Database Schema](./03-Database-Design/ChurchMemberDB-Complete.sql)
+- [Documentation](./03-Database-Design/ChurchMemberDB-README.md)
+
+
+**Target Market:** Churches, NGOs, community organizations (100-500 members)
 
 ---
 
