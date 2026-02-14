@@ -1,25 +1,25 @@
 # SQL Server DBA Portfolio
 
-**Career Transition: Data Engineer for a month → SQL Server Database Administrator**
+**Career Transition: From Doctor -> Data Engineer for a month → SQL Server Database Administrator**
 
-Documenting my journey from data engineering to enterprise database administration. Combining data pipeline expertise with production-ready SQL Server DBA skills.
+Documenting my journey from general medicine to enterprise database administration. Combining data pipeline expertise with production-ready SQL Server DBA skills.
 
 ---
 
 ## 👨‍💼 About This Transition
 
-After a brief exposure in data engineering, I'm pivoting to SQL Server Database Administration to deepen my expertise in enterprise database management. This portfolio showcases my hands-on DBA projects and professional documentation.
+After a brief exposure in data engineering, I'm repivoting to SQL Server Database Administration to deepen my expertise in enterprise database management (before I eventually return to Data Engineering). This portfolio showcases my hands-on DBA projects and professional documentation.
 
 **Current Status:** Intensive SQL Server DBA Training (JoinIT Solutions LLC)  
 **Timeline:** December 2025 - June 2026 (6 months)  
-**Progress:** Module 2 of 9 completed  
+**Progress:** Module 3 of 9 completed  
 **Expected Graduation:** June 2026
 
 ---
 
 ## 🎯 Why This Transition Makes Sense
 
-**Data Engineering Background** + **SQL Server DBA Skills** = Full-Stack Data Professional
+**Medical Doctor** + **Data Engineering Background** + **SQL Server DBA Skills** = Full-Stack Data Professional
 
 I understand:
 - ✅ How data flows through pipelines (Data Engineering)
@@ -66,7 +66,7 @@ Complete multi-version SQL Server installation project demonstrating production-
 
 ### Project 2: SQL Server Health Monitoring Scripts
 **Date:** December 2025  
-**Status:** 🔄 In Progress
+**Status:** ✅ Complete 
 
 Building automated health check scripts for daily SQL Server monitoring.
 
@@ -84,9 +84,11 @@ Building automated health check scripts for daily SQL Server monitoring.
 
 ### Project 3: SQL Server Patching & Service Pack Deployment
 **Date:** January 2026  
-**Status:** ⏳ Upcoming
+**Status:** ✅ Complete 
 
 Documenting SQL Server patching procedures, including pre-patch preparation, execution, and post-patch verification.
+
+---
 
 ### Project 4: Employee Management Database Design
 **Location:** [`03-Database-Design/`](./03-Database-Design/)
@@ -116,6 +118,7 @@ Documenting SQL Server patching procedures, including pre-patch preparation, exe
 - [Design Documentation](./03-Database-Design/Employee-Management-Database-Design.md)
 - [Complete SQL Schema](./03-Database-Design/Employee-Management-Schema.sql)
 
+---
 
 ### Project 5. Church Member Management System ⭐ NEW
 **Location:** [`03-Database-Design/SynagogueChurchMemberDB/`](./03-Database-Design/SynagogueChurchMemberDB/)
@@ -131,12 +134,12 @@ Churches in Cameroon often track members using Excel or paper records, leading t
 - Unicode support for Cameroonian names (Ndí, Bébé, François)
 - 7+ pre-built administrative queries
 
-**Still working on:**
+**Still working on: 🔄 In Progress**
 - Complete backup strategy (FULL, DIFFERENTIAL, LOG)
 - Disaster recovery scenarios documented
 - Point-in-time recovery capability
 
-**Backup & Recovery:**
+**Backup & Recovery:🔄 In Progress**
 - RPO: 30 minutes (maximum data loss)
 - RTO: 1 hour (maximum downtime)
 - Automated backup scripts included
@@ -204,12 +207,12 @@ Churches in Cameroon often track members using Excel or paper records, leading t
 **Modules Completed:**
 - ✅ Module 1: IT Fundamentals & DBA Responsibilities
 - ✅ Module 2: SQL Server Installation, Configuration & Database Management
+- ✅ Module 3: SQL Server Patching & Service Pack Deployment
 
-**Currently Learning (January 2026):**
-- 🔄 Module 3: SQL Server Patching & Service Pack Deployment
+**Currently Learning (February 2026):**
+- 🔄 Module 4: Backup & Restore Strategies 
 
-**Upcoming:**
-- Module 4: Backup & Restore Strategies
+**⏳Upcoming:**
 - Module 5: Indexes & Performance Optimization
 - Module 6: Advanced T-SQL Programming
 - Module 7: Stored Procedures, Functions & Triggers
@@ -262,17 +265,11 @@ I document my SQL Server DBA journey on LinkedIn, sharing projects, lessons lear
 
 ---
 
-## 🔗 Related Repositories
-
-**Data Engineering Projects:** [github.com/eekukole](https://github.com/eekukole)  
-*Check out my main profile for data engineering work*
-
----
-
 ## 🙏 Acknowledgments
 
 - **JoinIT Solutions LLC** - Comprehensive SQL Server DBA Training
-- **Instructors:** Brian Chongwain, Alain Nfor, Sidney Nyoungho
+- **Instructors:** Brian Chongwain, Alain Nfor, Sidney Nyoungho, Tse Ndefru, Ephraim Langmi
+- **Fellow course mates**
 - **Microsoft** - Excellent SQL Server documentation
 - **SQL Server Community** - Invaluable troubleshooting resources
 
@@ -288,7 +285,7 @@ MIT License - Feel free to use scripts and documentation for your own learning.
 
 ---
 
-*Last Updated: January 1, 2026*  
+*Last Updated: February 14, 2026*  
 *Repository Created: December 29, 2025*  
-*Part of career transition from Data Engineering to SQL Server DBA*
+*Part of career transition from Doctor to SQL Server DBA*
 ```
