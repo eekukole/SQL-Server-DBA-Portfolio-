@@ -1,6 +1,6 @@
 # SQL Server DBA Portfolio
 
-**Career Transition: Data Engineer → SQL Server Database Administrator**
+**Career Transition: Data Engineer for a month → SQL Server Database Administrator**
 
 Documenting my journey from data engineering to enterprise database administration. Combining data pipeline expertise with production-ready SQL Server DBA skills.
 
@@ -8,7 +8,7 @@ Documenting my journey from data engineering to enterprise database administrati
 
 ## 👨‍💼 About This Transition
 
-After a brief exposure in data engineering, I'm specializing in SQL Server Database Administration to deepen my expertise in enterprise database management. This portfolio showcases my hands-on DBA projects and professional documentation.
+After a brief exposure in data engineering, I'm pivoting to SQL Server Database Administration to deepen my expertise in enterprise database management. This portfolio showcases my hands-on DBA projects and professional documentation.
 
 **Current Status:** Intensive SQL Server DBA Training (JoinIT Solutions LLC)  
 **Timeline:** December 2025 - June 2026 (6 months)  
