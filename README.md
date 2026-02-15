@@ -8,7 +8,7 @@ Documenting my journey from general medicine to enterprise database administrati
 
 ## 👨‍💼 About This Transition
 
-After a brief exposure in data engineering, I'm repivoting to SQL Server Database Administration to deepen my expertise in enterprise database management (before I eventually return to Data Engineering). This portfolio showcases my hands-on DBA projects and professional documentation.
+After a brief exposure in data engineering (after leaving the emergency wards and trying to figure out what tech environment would align best with my strengths), I'm repivoting to SQL Server Database Administration to deepen my expertise in enterprise database management (before I eventually return to Data Engineering if it's still going to be appealing). This portfolio showcases my hands-on DBA projects and professional documentation.
 
 **Current Status:** Intensive SQL Server DBA Training (JoinIT Solutions LLC)  
 **Timeline:** December 2025 - June 2026 (6 months)  
@@ -22,7 +22,8 @@ After a brief exposure in data engineering, I'm repivoting to SQL Server Databas
 **Medical Doctor** + **Data Engineering Background** + **SQL Server DBA Skills** = Full-Stack Data Professional
 
 I understand:
-- ✅ How data flows through pipelines (Data Engineering)
+- ✅ How to use the same rigor of a doctor fixing a health emergency at 3:27 AM to handle database disasters
+- ✅ How data flows through pipelines (basic Data Engineering)
 - ✅ How to optimize and manage the database layer (DBA)
 - ✅ Performance from both application and database perspectives
 - ✅ The complete data infrastructure stack
@@ -258,9 +259,9 @@ I document my SQL Server DBA journey on LinkedIn, sharing projects, lessons lear
 
 ## 📈 Repository Stats
 
-![Projects](https://img.shields.io/badge/SQL%20Server%20Projects-1%20Complete%2C%202%20In%20Progress-blue)
+![Projects](https://img.shields.io/badge/SQL%20Server%20Projects-5%20Complete%2C%202%20In%20Progress-blue)
 ![Status](https://img.shields.io/badge/Status-Active%20Learning-green)
-![Training Progress](https://img.shields.io/badge/Training%20Progress-Module%202%20of%209-orange)
+![Training Progress](https://img.shields.io/badge/Training%20Progress-Module%203%20of%209-orange)
 ![Graduation](https://img.shields.io/badge/Graduation-June%202025-purple)
 
 ---
