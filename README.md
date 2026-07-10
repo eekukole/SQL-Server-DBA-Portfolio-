@@ -8,12 +8,11 @@ Documenting my journey from general medicine to enterprise database administrati
 
 ## 👨‍💼 About This Transition
 
-After a brief exposure in data engineering (after leaving the emergency wards and trying to figure out what tech environment would align best with my strengths), I'm repivoting to SQL Server Database Administration to deepen my expertise in enterprise database management. This portfolio showcases my hands-on DBA projects and professional documentation.
+After a brief exposure in data engineering (after leaving the emergency wards and trying to figure out what tech environment would align best with my strengths), I'm pivoting to SQL Server Database Administration to deepen my expertise in enterprise database management. This portfolio showcases my hands-on DBA projects and professional documentation.
 
 **Current Status:** Intensive SQL Server DBA Training (JoinIT Solutions LLC)  
 **Timeline:** December 2025 - June 2026 (6 months)  
-**Progress:** Module 3 of 9 completed  
-**Expected Graduation:** June 2026
+**Progress:** Module 9 of 9 completed 
 
 ---
 
@@ -173,7 +172,7 @@ Churches in Cameroon often track members using Excel or paper records, leading t
 ## 🛠️ SQL Server DBA Skills
 
 **Core Competencies:**
-- SQL Server Installation & Configuration (2017, 2019)
+- SQL Server Installation & Configuration (2008 - 2022)
 - Multi-Instance Environment Management
 - Database Design & Implementation
 - Backup & Recovery Strategies
@@ -184,11 +183,11 @@ Churches in Cameroon often track members using Excel or paper records, leading t
 - Database Monitoring & Troubleshooting
 
 **Tools & Technologies:**
-- SQL Server 2017/2019 Enterprise Edition
-- SQL Server Management Studio (SSMS) 20
+- SQL Server 2008 - 2022 Enterprise/Developer Editions
+- SQL Server Management Studio (SSMS) 18, 20, 22
 - SQL Server Configuration Manager
 - T-SQL
-- PowerShell (learning)
+- PowerShell
 - Windows Server
 - Azure SQL Database (upcoming)
 
@@ -209,16 +208,13 @@ Churches in Cameroon often track members using Excel or paper records, leading t
 - ✅ Module 1: IT Fundamentals & DBA Responsibilities
 - ✅ Module 2: SQL Server Installation, Configuration & Database Management
 - ✅ Module 3: SQL Server Patching & Service Pack Deployment
-
-**Currently Learning (February 2026):**
-- 🔄 Module 4: Backup & Restore Strategies 
-
-**⏳Upcoming:**
-- Module 5: Indexes & Performance Optimization
-- Module 6: Advanced T-SQL Programming
-- Module 7: Stored Procedures, Functions & Triggers
-- Module 8: Monitoring & Performance Tuning
-- Module 9: High Availability & Disaster Recovery (Always On, Log Shipping, Replication, Clustering)
+- ✅ Module 4: Database Design
+- ✅ Module 5: Backup & Restore Strategies
+- ✅ Module 6: Advanced T-SQL Programming
+- ✅ Module 7: Database Security
+- ✅ Module 8: Monitoring & Performance Tuning
+- ✅ Module 9: High Availability & Disaster Recovery (Always On, Log Shipping, Replication, Clustering)
+- ✅ Module 10: Virtualization
 
 ---
 
@@ -269,7 +265,7 @@ I document my SQL Server DBA journey on LinkedIn, sharing projects, lessons lear
 ## 🙏 Acknowledgments
 
 - **JoinIT Solutions LLC** - Comprehensive SQL Server DBA Training
-- **Instructors:** Brian Chongwain, Alain Nfor, Sidney Nyoungho, Tse Ndefru, Ephraim Langmi
+- **Instructors:** Brian Chongwain, Alain Nfor, Sidney Nyoungho, Tse Ndefru, Ephraim Langmi, Gabriel Jilefac
 - **Fellow course mates**
 - **Microsoft** - Excellent SQL Server documentation
 - **SQL Server Community** - Invaluable troubleshooting resources
@@ -286,7 +282,7 @@ MIT License - Feel free to use scripts and documentation for your own learning.
 
 ---
 
-*Last Updated: February 14, 2026*  
+*Last Updated: July 10, 2026*  
 *Repository Created: December 29, 2025*  
 *Part of career transition from Doctor to SQL Server DBA*
 ```
