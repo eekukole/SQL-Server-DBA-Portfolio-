@@ -8,7 +8,7 @@ Documenting my journey from general medicine to enterprise database administrati
 
 ## 👨‍💼 About This Transition
 
-After a brief exposure in data engineering (after leaving the emergency wards and trying to figure out what tech environment would align best with my strengths), I'm repivoting to SQL Server Database Administration to deepen my expertise in enterprise database management (before I eventually return to Data Engineering if it's still going to be appealing). This portfolio showcases my hands-on DBA projects and professional documentation.
+After a brief exposure in data engineering (after leaving the emergency wards and trying to figure out what tech environment would align best with my strengths), I'm repivoting to SQL Server Database Administration to deepen my expertise in enterprise database management. This portfolio showcases my hands-on DBA projects and professional documentation.
 
 **Current Status:** Intensive SQL Server DBA Training (JoinIT Solutions LLC)  
 **Timeline:** December 2025 - June 2026 (6 months)  
