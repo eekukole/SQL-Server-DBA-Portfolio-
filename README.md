@@ -258,7 +258,7 @@ I document my SQL Server DBA journey on LinkedIn, sharing projects, lessons lear
 ![Projects](https://img.shields.io/badge/SQL%20Server%20Projects-5%20Complete%2C%202%20In%20Progress-blue)
 ![Status](https://img.shields.io/badge/Status-Active%20Learning-green)
 ![Training Progress](https://img.shields.io/badge/Training%20Progress-Module%209%20of%209-orange)
-![Graduation](https://img.shields.io/badge/Graduation-June%202025-purple)
+![Graduation](https://img.shields.io/badge/Graduation-June%202026-purple)
 
 ---
 
